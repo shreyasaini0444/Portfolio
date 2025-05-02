@@ -1,6 +1,6 @@
 # 🚀 Shreya Saini's Portfolio
 
-[![Deploy](https://img.shields.io/badge/Live%20Demo-Portfolio-green?style=for-the-badge&logo=vercel)](http://localhost:5173/Portfolio/)
+[![Deploy](https://img.shields.io/badge/Live%20Demo-Portfolio-green?style=for-the-badge&logo=vercel)](https://shreyasaini0444.github.io/Portfolio/)
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, achievements, and more. Built with React, TypeScript, and Vite, it features a modern, responsive design and smooth user experience.
 
@@ -50,7 +50,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 This portfolio is deployed at:
 
-**🔗 [Live Demo](http://localhost:5173/Portfolio/)**
+**🔗 [Live Demo](https://shreyasaini0444.github.io/Portfolio/)**
 
 You can easily deploy it to Vercel, Netlify, or GitHub Pages. Just follow their guides for React/Vite projects.
 
