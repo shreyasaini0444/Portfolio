@@ -1,6 +1,7 @@
 import React from 'react';
 import { Github, Linkedin, Mail, ArrowDownCircle, FileDown } from 'lucide-react';
 import { personalInfo } from '../../constants/data';
+import profilePhoto from '../../assets/profile.jpg';
 
 const Home: React.FC = () => {
   const scrollToAbout = () => {
@@ -27,7 +28,7 @@ const Home: React.FC = () => {
           <div className="lg:w-1/2">
             <p className="text-purple-600 font-semibold mb-2 tracking-wider">HELLO, I'M</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-gray-800">
-              Shreya Saini
+              {personalInfo.name}
             </h1>
             <p className="text-xl text-gray-700 mb-8 leading-relaxed max-w-xl">
               {personalInfo.about}
@@ -91,8 +92,12 @@ const Home: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-teal-400 rounded-full opacity-20 animate-pulse"></div>
               <div className="absolute inset-4 bg-gradient-to-tr from-purple-400 to-teal-300 rounded-full opacity-30"></div>
               <div className="absolute inset-8 bg-gradient-to-r from-purple-300 to-teal-200 rounded-full opacity-40"></div>
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-5xl font-bold text-purple-700">S</span>
+              <div className="absolute inset-0 flex items-center justify-center overflow-hidden rounded-full border-4 border-white shadow-lg">
+                <img 
+                  src={profilePhoto} 
+                  alt="Profile"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
